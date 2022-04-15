@@ -14,19 +14,19 @@ const About = () => {
       <StyledImage src={codingSvg} />
       <HeaderContainer>
         <h1>
-          About Software Developer <span>Stravska</span>
+          About Software Developer <span>AshleyMiller </span>
         </h1>
       </HeaderContainer>
       <InfoContainer>
-        <h2>Hi, I'am Murat </h2>
-        <h3>I'm currently learning Full-Stack Development Languages.</h3>
+        <h2>Hi, I'am Ashley Miller</h2>
+        <h3>I’m currently learning Full-Stack Development Languages.</h3>
         <h4>
-          
-          I've already known JS, ReactJS, ReactNative,Python,SQL.
+          I've already known JS, ReactJS, ReactNative, NodeJS, MongoDB,SQL,
+          Java, Hibernate, SpringBoot, AWS Services.
         </h4>
         <h2>
-          <a href="mailto:muratertugral93@gmail.com">Send email</a> :
-          muratertugral93@gmail.com
+          <a href="mailto:Ashley@clarusway.com">Send email</a> :
+          Ashley@clarusway.com
         </h2>
       </InfoContainer>
     </AboutContainer>

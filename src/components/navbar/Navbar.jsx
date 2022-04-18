@@ -7,7 +7,8 @@ const Navbar = () => {
   const [github, setGithub] = useState("");
   return (
     <Nav>
-      <Logo to="/home">
+      <Logo to="/home"
+      onClick={() => setIsOpen(false)}>
         <i>{"<Clarusway>"}</i>
         <span>recipe</span>
       </Logo>
@@ -34,13 +35,13 @@ const Navbar = () => {
           onClick={() =>
             setGithub(
               (window.location.href =
-                "https://github.com/orgs/clarusway/dashboard")
+                "https://github.com/MuratErtugral")
             )
           }
           to={github}
           target="_blank"
         >
-          Githubb
+          Github
         </MenuLink>
         {/* React-router, Tek Sayfalık Uygulama için bir yönlendirme sistemidir. Tüm
         rotaların sayfanızda tanımlanması ve uygulamanızın içinde kapsüllenmesi

@@ -8,9 +8,12 @@ import RecipeCardComp from "./RecipeCardComp"
 
 
 
-const APP_ID = process.env.REACT_APP_ID;
+// const APP_ID = process.env.REACT_APP_ID;
 
-const APP_KEY = process.env.REACT_APP_KEY;
+// const APP_KEY = process.env.REACT_APP_KEY;
+const APP_ID = "6493af56"
+
+const APP_KEY = "7c6c293db20366b90354f44502ec1372";
 
 
 const Home = () => {

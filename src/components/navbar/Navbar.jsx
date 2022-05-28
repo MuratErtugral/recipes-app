@@ -30,6 +30,9 @@ const Navbar = () => {
         <MenuLink onClick={() => setIsOpen(!isOpen)} to="/about">
           About
         </MenuLink>
+        <MenuLink onClick={() => setIsOpen(!isOpen)} >
+          TEST
+        </MenuLink>
         {/* hamburger tıklanınca open açılıyor, about a basınca false kapanmalı */}
         <MenuLink
           onClick={() =>

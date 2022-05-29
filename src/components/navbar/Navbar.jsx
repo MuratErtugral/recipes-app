@@ -9,7 +9,7 @@ const Navbar = () => {
     <Nav>
       <Logo to="/home"
       onClick={() => setIsOpen(false)}>
-        <i>{"<Clarusway>"}</i>
+        <i>{"<Stravska>"}</i>
         <span>recipe</span>
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>

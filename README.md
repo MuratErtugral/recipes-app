@@ -1,4 +1,4 @@
-You can reachlive demo --> https://recipe-app-rust-eta.vercel.app/
+You can reach live demo --> https://recipe-app-rust-eta.vercel.app/
 
 # Getting Started with Create React App
 
